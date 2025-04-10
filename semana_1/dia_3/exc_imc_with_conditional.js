@@ -1,4 +1,6 @@
-// Daniel Manoel - 09/04/2025 - 20:31
+// Daniel Manoel - 09/04/2025 - 22:40
+
+// IMC Considerando uma tabela de respostas
 
 let weight = 60;
 let height = 1.70;
