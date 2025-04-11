@@ -34,32 +34,27 @@ console.log('-----------------')
 let product_type = "Books"
 let product_value = 500
 let discount;
-let percentage;
+
 
 
 switch(product_type){
     case "Food":
-        percentage = product_value * 0.05
-        discount = product_value - percentage
-        console.log(`Value with discount: ${discount}`)
+        discount = 0.05
         break; 
     case "Eletronic":
-        percentage = product_value * 0.1
-        discount = product_value - percentage
-        console.log(`Value with discount: ${discount}`)
-        break; 
+        discount = 0.10
+        break;
     case "Clothes":
-        percentage = product_value * 0.2
-        discount = product_value - percentage
-        console.log(`Value with discount: ${discount}`)
-        break; 
+        discount = 0.20
+        break;
     case "Books":
-        percentage = product_value * 0.5
-        discount = product_value - percentage
-        console.log(`Value with discount: ${discount}`)
-        break; 
+        discount = 0.50
+        break;
     default:
         console.log('No discount to apply')
 }
+
+let finalValue = product_value * (1 - discount);
+console.log(`Value with discount: \$${finalValue.toFixed(2)}`)
 
 
