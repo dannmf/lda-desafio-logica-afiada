@@ -1,3 +1,7 @@
+// Daniel Manoel - 13/04/2025 - 10:00
+//Faça uma contagem regressiva de 10 segundos de um foguete, nos ultimos 3 segundos
+// mude a mensagem para atenção.
+
 let timer = 11
 
 while(timer > 0){

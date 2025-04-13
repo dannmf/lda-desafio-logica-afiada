@@ -1,3 +1,4 @@
+// Daniel Manoel - 13/04/2025 - 11:02
 // Calcule qunato tempo em (em anos) levará para que um investimento inicial dobre,
 // considerando uma taxa de juros de 5% ao ano.
 

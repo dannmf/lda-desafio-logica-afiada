@@ -1,3 +1,4 @@
+// Daniel Manoel - 13/04/2025 - 10:10
 // Suponha que você investiu R$1000 em uma aplicação financeira que rende 12% ao ano
 // Usando um loop "for", calcule como esse investimento cresce ao longo do tempo,
 // nos próximos 10 anos.
